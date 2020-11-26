@@ -162,6 +162,7 @@ describe("get_profit_for_crop", () => {
             }
         }
     }
+
     const environmental_factor = { sun: "", wind: "", underground: "" };
     test("get profit for crop", () => expect(get_profit_for_crop(corn, {})).toBe(350))
 });
